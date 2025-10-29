@@ -7,7 +7,7 @@ if [ -d "$EPGIMPORT_DIR" ]; then
 else
     echo "EPGImport is NOT installed. Istalling Dorik's EPGImport mod."
     wget --no-check-certificate "https://github.com/hispatv/hispatv/blob/main/enigma2-plugin-EPGImport-mod.ipk" -O /tmp/enigma2-plugin-EPGImport-mod.ipk
-    opkg install --force-reinstall --force-overwrite /tmp/enigma22-plugin-EPGImport-mod.ipk
+    opkg install --force-reinstall --force-overwrite /tmp/enigma2-plugin-EPGImport-mod.ipk
 fi
 
 echo "Installing HispaTV Plugin..."
